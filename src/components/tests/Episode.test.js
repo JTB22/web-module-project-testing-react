@@ -2,7 +2,6 @@ import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import Episode from "./../Episode";
-import e from "cors";
 
 // ----- EXAMPLE EPISODE TEST OBJECT -----
 const exampleEpisodeData = {
